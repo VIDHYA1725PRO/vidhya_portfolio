@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Vidhya S — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- OVERLAY (mobile) -->
+<div class="overlay" id="overlay"></div>
+
+<!-- ═══════════ SIDEBAR ═══════════ -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <div class="logo-tag">// Portfolio</div>
+    <div class="logo-name">VIDHYA S</div>
+    <div class="logo-role">Full Stack Developer</div>
+  </div>
+
+  <nav class="nav">
+    <ul>
+      <li class="nav-item active" data-target="home">
+        <i class="fa-solid fa-house"></i> Home
+      </li>
+      <li class="nav-item" data-target="about">
+        <i class="fa-solid fa-user"></i> About
+      </li>
+      <li class="nav-item" data-target="skills">
+        <i class="fa-solid fa-code"></i> Skills
+      </li>
+      <li class="nav-item" data-target="projects">
+        <i class="fa-solid fa-folder-open"></i> Projects
+      </li>
+      <li class="nav-item" data-target="experience">
+        <i class="fa-solid fa-briefcase"></i> Experience
+      </li>
+      <li class="nav-item" data-target="contact">
+        <i class="fa-solid fa-envelope"></i> Contact
+      </li>
+    </ul>
+  </nav>
+
+  <div class="sidebar-footer">
+    <div class="social-links">
+      <a href="https://github.com/VIDHYA1725PRO" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/vidhya-s-73150935a/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:vidhyasendurpandi@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      
+    </div>
+  </div>
+</aside>
+
+<!-- ═══════════ HEADER ═══════════ -->
+<header class="header">
+  <div class="header-left">
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <span class="header-title">Vidhya S</span>
+    <span class="header-badge">AVAILABLE FOR HIRE</span>
+  </div>
+  <div class="header-right">
+    <a href="assets/Vidhya.S Resume.pdf" class="btn-resume" download>
+      <i class="fas fa-download"></i> Resume
+    </a>
+  </div>
+</header>
+
+<!-- ═══════════ MAIN ═══════════ -->
+<main class="main">
+
+  <!-- ── HOME ── -->
+  <section class="page active" id="home">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="hero-eyebrow">Hello, World!</div>
+        <h1 class="hero-name">VIDHYA<span> S</span></h1>
+        <p class="hero-tagline">
+          A passionate <strong>Full Stack Developer</strong> crafting intelligent,<br>
+          scalable web applications — from data-driven dashboards<br>
+          to smart IoT monitoring systems.
+        </p>
+        <div class="hero-cta">
+          <button class="btn-primary" onclick="navigateTo('projects')">
+            <i class="fas fa-folder-open"></i> View Projects
+          </button>
+          <a href="assets/Vidhya.S Resume.pdf" class="btn-outline" download>
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">1</span>
+            <span class="stat-label">Internship</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-avatar-wrap">
+          <div class="hero-avatar-bg"></div>
+          <div class="hero-avatar-inner">
+            <span class="hero-monogram">VS</span>
+          </div>
+        </div>
+        <div class="floating-tag t1">⚛ React Developer</div>
+        <div class="floating-tag t2">🐍 Python · Java · C++</div>
+        <div class="floating-tag t3">🛢 MySQL · MongoDB</div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="page" id="about">
+    <div class="section-tag">// 01. About</div>
+    <h2 class="section-title">Who I <span>Am</span></h2>
+    <p class="section-desc">A little more about my background, education, and what drives me.</p>
+    <div class="about-grid">
+      <div>
+        <div class="about-bio">
+          <p>I'm <strong>Vidhya S</strong>, a Full Stack Developer with a strong foundation in building end-to-end web applications. I enjoy turning complex problems into elegant, user-friendly solutions.</p>
+          <p>My passion lies at the intersection of <strong>web development</strong> — having worked on platforms that range from academic analytics to smart aquaculture dashboards.</p>
+          <p>I'm always curious, always building, and always looking for ways technology can solve real-world challenges.</p>
+        </div>
+        <div class="card">
+          <div class="card-title"><i class="fas fa-id-badge"></i> Quick Info</div>
+          <div class="info-table">
+            <span class="info-key">Name</span>       <span class="info-val">VIDHYA S</span>
+            <span class="info-key">Role</span>        <span class="info-val">Full Stack Developer</span>
+            <span class="info-key">Location</span>   <span class="info-val">Tamil Nadu, India</span>
+            <span class="info-key">Email</span>       <span class="info-val">vidhyasendurpandi@gmail.com</span>
+            <span class="info-key">Languages</span>  <span class="info-val">Tamil, English</span>
+            <span class="info-key">Status</span>      <span class="info-val highlight">Open to Opportunities</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="card">
+          <div class="card-title"><i class="fas fa-graduation-cap"></i> Education</div>
+          <div class="edu-item">
+            <div class="edu-degree">B.E. / B.Tech – Mechatronics Engineering</div>
+            <div class="edu-school">Bannari Amman Institute of Technology</div>
+            <div class="edu-cgpa">CGPA: 7.9/10</div>
+            <div class="edu-year">2023 – 2027</div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-degree">Higher Secondary Certificate (HSC)</div>
+            <div class="edu-school">Government Girls Higher Secondary School</div>
+            <div class="edu-mark">12th: 80%</div>
+            <div class="edu-year">2016 – 2023</div>
+          </div>
+          
+        </div>
+        <div class="card">
+          <div class="card-title"><i class="fas fa-bullseye"></i> Career Objective</div>
+          <p class="objective-text">
+            To contribute as a Full Stack Developer in an innovative organization where I can leverage my skills in web development and data engineering to build impactful, scalable solutions — while continuously growing as an engineer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="page" id="skills">
+    <div class="section-tag">// 02. Skills</div>
+    <h2 class="section-title">Tech <span>Stack</span></h2>
+    <p class="section-desc">Technologies and tools I work with across the stack.</p>
+
+    <div class="skills-categories">
+      <div class="card reveal">
+        <div class="skill-category-title">Programming Languages</div>
+        <div class="skill-pills">
+          <div class="skill-pill"><i class="fab fa-python"></i> Java</div>
+          <div class="skill-pill"><i class="fab fa-js"></i> JavaScript</div>
+          <div class="skill-pill"><i class="fas fa-code"></i> Python</div>
+          <div class="skill-pill"><i class="fas fa-code"></i> C++</div>
+          <div class="skill-pill"><i class="fas fa-code"></i> C</div>
+          <div class="skill-pill"><i class="fas fa-database"></i> SQL</div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <div class="skill-category-title">Frontend</div>
+        <div class="skill-pills">
+          <div class="skill-pill"><i class="fab fa-react"></i> React.js</div>
+          <div class="skill-pill"><i class="fab fa-html5"></i> HTML5</div>
+          <div class="skill-pill"><i class="fab fa-css3-alt"></i> CSS3</div>
+          <div class="skill-pill"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+          <div class="skill-pill"><i class="fas fa-wind"></i> Tailwind</div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <div class="skill-category-title">Backend</div>
+        <div class="skill-pills">
+          <div class="skill-pill"><i class="fab fa-node-js"></i> Node.js</div>
+          <div class="skill-pill"><i class="fas fa-server"></i> Express.js</div>
+          
+          <div class="skill-pill"><i class="fas fa-plug"></i> REST APIs</div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <div class="skill-category-title">Database</div>
+        <div class="skill-pills">
+          <div class="skill-pill"><i class="fas fa-database"></i> MySQL</div>
+          <div class="skill-pill"><i class="fas fa-leaf"></i> MongoDB</div>
+          <div class="skill-pill"><i class="fas fa-database"></i> PostgreSQL</div>
+          <div class="skill-pill"><i class="fas fa-fire-alt"></i> Firebase</div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <div class="skill-category-title">Tools & DevOps</div>
+        <div class="skill-pills">
+          <div class="skill-pill"><i class="fab fa-git-alt"></i> Git</div>
+          <div class="skill-pill"><i class="fab fa-github"></i> GitHub</div>
+          <div class="skill-pill"><i class="fab fa-docker"></i> Vercel</div>
+          <div class="skill-pill"><i class="fas fa-terminal"></i> Render</div>
+          <div class="skill-pill"><i class="fas fa-cloud"></i> Netlify</div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <div class="skill-category-title">Proficiency</div>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="skill-bar-header"><span>Java / C++</span><span>80%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:85%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header"><span>React.js</span><span>80%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:80%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header"><span>Node.js / Express</span><span>75%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:75%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header"><span>MySQL / MongoDB</span><span>78%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:78%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header"><span>HTML / CSS / JS</span><span>90%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:90%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="page" id="projects">
+    <div class="section-tag">// 03. Projects</div>
+    <h2 class="section-title">What I've <span>Built</span></h2>
+    <p class="section-desc">A selection of projects showcasing full-stack development, data engineering, and IoT integration.</p>
+    <div class="projects-grid" id="projectsGrid">
+      <!-- Rendered by js/projects.js -->
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section class="page" id="experience">
+    <div class="section-tag">// 04. Experience</div>
+    <h2 class="section-title">My <span>Journey</span></h2>
+    <p class="section-desc">Professional experience  that shaped my development career.</p>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">AMYPO TECHNOLOGIES· TRAINING CLASS</div>
+        <div class="timeline-role">Full Stack Developer</div>
+        
+        <p class="timeline-desc-text">Learn and build responsive web pages with modern UI design concepts and developed dynamic interfaces using framework.Gained hands-on experience in end-to-end product development cycles.</p>
+        <div class="timeline-points">
+          <div class="timeline-point">Frontend Development using React.js, HTML5, CSS3, JavaScript, and modern UI libraries</div>
+          <div class="timeline-point">Created server-side applications using Node.js and Express.js and </div>
+          <div class="timeline-point">Built RESTful APIs for communication between frontend and backend</div>
+          <div class="timeline-point">Worked with MySQL / MongoDB</div>
+          <div class="timeline-point">Used JSON format for data exchange</div>
+          <div class="timeline-point">Implemented user authentication using JWT (JSON Web Token)</div>
+          <div class="timeline-point">Used Git & GitHub for code management and collaboration</div>
+          <div class="timeline-point">Developed full stack projects from scratch</div>
+        </div>
+      </div>
+      
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="page" id="contact">
+    <div class="section-tag">// 05. Contact</div>
+    <h2 class="section-title">Let's <span>Connect</span></h2>
+    <p class="section-desc">Have a project in mind, a job opportunity, or just want to chat? I'd love to hear from you.</p>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <div class="contact-info-val">vidhyasendurpandi@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <div class="contact-info-label">Location</div>
+              <div class="contact-info-val">Thoothukudi district, Tamil Nadu, India</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div>
+              <div class="contact-info-label">LinkedIn</div>
+              <div class="contact-info-val">https://www.linkedin.com/in/vidhya-s-73150935a/</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <div class="contact-info-label">GitHub</div>
+              <div class="contact-info-val">https://github.com/VIDHYA1725PRO</div>
+            </div>
+          </div>
+        </div>
+        <div class="card response-card">
+          <div class="card-title"><i class="fas fa-clock"></i> Response Time</div>
+          <p>I typically respond within <strong class="teal">24–48 hours</strong>. Whether it's a quick question or a full collaboration proposal — I'm open to conversations!</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title"><i class="fas fa-paper-plane"></i> Send a Message</div>
+        <div class="contact-form">
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input class="form-input" id="fname" type="text" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input class="form-input" id="femail" type="email" placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" id="fmessage" placeholder="Hey Vidhya, I'd like to discuss..."></textarea>
+          </div>
+          <button class="form-submit" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            ✓ Message sent successfully! I'll get back to you soon.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+  <div class="footer-copy">
+    © 2025 <span class="teal">Vidhya S</span> · Built with ❤ and clean code
+  </div>
+  <div class="footer-links">
+    <a href="#" data-nav="home">Home</a>
+    <a href="#" data-nav="projects">Projects</a>
+    <a href="#" data-nav="contact">Contact</a>
+    <a href="https://github.com/VIDHYA1725PRO" target="_blank">GitHub</a>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
